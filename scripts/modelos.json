@@ -1,0 +1,175 @@
+{
+    "modelos": [
+        {
+          "foto": "../img/Model-1.png",
+          "titulo": "BMW M2 Coupé",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-2.png",
+          "titulo": "BMW M3 Sedán",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-3.png",
+          "titulo": "BMW M3 CS",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-4.png",
+          "titulo": "BMW M3 Touring",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-5.png",
+          "titulo": "BMW M4",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-6.png",
+          "titulo": "BMW M4 con M xDrive",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-7.png",
+          "titulo": "BMW M5",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        }, {
+          "foto": "../img/Model-8.png",
+          "titulo": "BMW M8 Coupé BMW M8",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-9.png",
+          "titulo": "BMW M8 Cabrio BMW M8",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-10.png",
+          "titulo": "BMW M8 Gran Coupé BMW M8",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-11.png",
+          "titulo": "BMW X3M BMW X3 M Competición",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-12.png",
+          "titulo": "BMW X4M BMW X4 M Competición",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-13.png",
+          "titulo": "BMW X5 M Competición",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        }, {
+          "foto": "../img/Model-14.png",
+          "titulo": "BMW X6 M Competición",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-15.png",
+          "titulo": "BMW XM Híbrido enchufable",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-16.png",
+          "titulo": "BMW XM Etiqueta Roja Híbrido",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-17.png",
+          "titulo": "BMW 3.0 CSL",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-18.png",
+          "titulo": "BMW M135i xDrive",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-19.png",
+          "titulo": "BMW M235i xDrive Gran Coupé",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        }, {
+          "foto": "../img/Model-20.png",
+          "titulo": "BMW M240i xDrive Coupé",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-21.png",
+          "titulo": "BMW M340i xDrive",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-22.png",
+          "titulo": "BMW M340i xDrive",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-23.png",
+          "titulo": "Cabrio BMW M440d xDrive Cabrio",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-24.png",
+          "titulo": "Cabrio BMW M440d xDrive Cabrio",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-25.png",
+          "titulo": "Gran Coupé",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-26.png",
+          "titulo": "BMW i4 m50",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-27.png",
+          "titulo": "BMW M550i xDrive",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-28.png",
+          "titulo": "BMW M760e xDrive",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        }, {
+          "foto": "../img/Model-29.png",
+          "titulo": "BMW M760e xDrive",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-30.png",
+          "titulo": "BMW M850i ​​xDrive Coupé",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-31.png",
+          "titulo": "BMW M850i ​​xDrive Cabrio",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-32.png",
+          "titulo": "BMW M850i ​​xDrive Gran Coupé",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-33.png",
+          "titulo": "BMW X2 M35i",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-34.png",
+          "titulo": "BMW X3 M40i",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        },
+        {
+          "foto": "../img/Model-35.png",
+          "titulo": "BMW X3 M40i",
+          "precio": "obtenerPrecioRandom(80000, 900000)"
+        }
+      ]
+}
