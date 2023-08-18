@@ -1,10 +1,10 @@
 // Esperar a que se cargue el DOM antes de ejecutar la función ready
 if (document.readyState == 'loading') {
   document.addEventListener('DOMContentLoaded', ready);
-  mostrarModelos()
+  //mostrarModelos()
 } else {
   ready();
-  mostrarModelos()
+  //mostrarModelos()
 }
 
 // funcionalidad al carrito
@@ -436,7 +436,7 @@ function readyAsync() {
 
 function mostrarModelosAsync() {
   return new Promise((resolve) => {
-    // mostrarModelos();
+    mostrarModelos();
     resolve();
   });
 }
