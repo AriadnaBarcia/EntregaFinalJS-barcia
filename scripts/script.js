@@ -1,10 +1,10 @@
 // Esperar a que se cargue el DOM antes de ejecutar la función ready
 if (document.readyState == 'loading') {
   document.addEventListener('DOMContentLoaded', ready);
-  //mostrarModelos()
+  mostrarModelos()
 } else {
   ready();
- // mostrarModelos()
+  mostrarModelos()
 }
 
 // funcionalidad al carrito
@@ -37,8 +37,21 @@ function ready() {
   document.getElementsByClassName('btn-pagar')[0].addEventListener('click', pagarClicked);
   ocultarCarrito();
 }
+const city = 'Regensburg'; // Reemplaza esto con el nombre de la ciudad
+const apiUrl = `https://wttr.in/${city}?format=%C+%t+%w`; // Formato para obtener la temperatura
+
+fetch(apiUrl)
+  .then(response => response.text())
+  .then(data => {
+    console.log(data); // Aquí tienes los datos del clima en formato de texto
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  }); console.log(apiUrl)
+
 
 function mostrarModelos() {
+
   let totalItems = '';
   let modelos = [
     {
@@ -214,7 +227,7 @@ function mostrarModelos() {
     }
   ]
   //let modeloOriginales = modelos
- // console.lo
+  // console.lo
   for (let posicion = 0; posicion < modelos.length; posicion++) {
     totalItems += ` <div class="item">
   <span class="titulo-item">`+ modelos[posicion].titulo + `</span>
@@ -394,13 +407,13 @@ function alertCompraFinalizada() {
   Swal.fire({
     icon: 'success',
     title: 'Compra Exitosa',
-    text: usuario.nombre +' su compra se realizo correctamente',
+    text: usuario.nombre + ' su compra se realizo correctamente',
     confirmButtonText: 'Aceptar'
   })
 }
 
-function mostrarAlerts(tipo){
-  tipo==='error'? alertDuplicados() : alertCompraFinalizada()
+function mostrarAlerts(tipo) {
+  tipo === 'error' ? alertDuplicados() : alertCompraFinalizada()
 }
 
 //promise:
@@ -423,7 +436,7 @@ function readyAsync() {
 
 function mostrarModelosAsync() {
   return new Promise((resolve) => {
-    mostrarModelos();
+    // mostrarModelos();
     resolve();
   });
 }
@@ -436,4 +449,7 @@ waitForDOMContentLoaded()
   .catch((error) => {
     console.error('A ocurrido un error:', error);
   });
+
+
+
 

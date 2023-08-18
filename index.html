@@ -48,17 +48,33 @@
     <br>
     <button type="submit">Registrarse</button>
   </form>
-
   <script src="script.js"></script>
+  
   <footer id="footer">
     <div class="footer-top">
         <div class="container">
             <div id="map-container" class="mb-5">
+                <h1>Consulta de Clima</h1>
+                <div id="climaDatos"></div>
+                <script>
+                    const city = 'Regensburg'; // Reemplaza esto con el nombre de la ciudad
+                    const apiUrl = `https://wttr.in/${city}?format=%C+%t+%w`; // Formato para obtener la temperatura
+            
+                    fetch(apiUrl)
+                        .then(response => response.text())
+                        .then(data => {
+                            document.getElementById('climaDatos').innerText = data; // Mostrar los datos del clima en el div
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                        });
+                </script>
                 <iframe class="col-xs-12 col-md-12 col-lg-12"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10911.696575192764!2d9.7690736!3d49.7746303!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479fc39e97a8637b%3A0x3435eaac93a4405a!2sBMW%20Plant%206.10!5e0!3m2!1ses!2ses!4v1651936706956!5m2!1ses!2ses"
-                    width="600" style="border:0; width: 100%; height: 310px;" allowfullscreen="" loading="lazy"
+                    width="600" style="margin: top 1%;border:0; width: 100%; height: 310px;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            
             <div class="row">
                 <div class="col-lg-5 col-md-6">
                     <div class="footer-info">
